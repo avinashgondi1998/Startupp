@@ -1,0 +1,109 @@
+.widget .header{
+	background-color: #63d471;
+    background-image: linear-gradient(180deg, #63d471 0%, #233329 120%);
+    padding: 9px 8px !important;
+}
+.widget .container {
+    padding: 75px 20px 10px 20px !important;
+}
+.account-settings .edit{
+	position: absolute;
+    right: 15px !important;
+    font-size: 0.975rem !important;
+    z-index: 99;
+}
+.account-settings .edit, .account-settings .verify{
+	color: #f09c1c !important;
+}
+.account-settings .edit[disabled]{
+	color: #f5d3a0 !important;
+}
+.account-settings .input-group label {
+    margin-bottom: 7px !important;
+    font-size: 15px !important;
+    color: #414141 !important;
+}
+.ct-link-color {
+    color: #414141 !important;
+	font-size:13px !important;
+}
+#activity-list-v2 .activity{
+	background: transparent !important;
+    border-bottom: 0px solid #bbb !important;
+    padding:0px !important;
+}
+#activity-list-v2 .image-container{
+background: transparent !important;	
+}
+#activity-list-v2 .activity .title{
+	margin-bottom: 6px !important;
+}
+.account-settings p {
+    overflow-wrap: break-word;
+    font-size: 14px !important;
+    color: #7d7d7d !important;
+}
+.account-settings .input-group input, .account-settings .input-group select{
+	outline: none !important;
+    padding: 8px 8px !important;
+}
+.account-settings .input-group select {
+    height: 32px  !important;
+}
+.account-settings .input-group .birthday-fields .month {
+	    margin-right: 4px;
+}
+.account-settings .input-group .birthday-fields .day {
+		    margin-right: 4px;
+}
+button.btn {
+    padding: 12px 30px !important;
+}
+.btn.btn-secondary, a.btn.btn-secondary {
+    background-color: #fff !important;
+    color: #333;
+    border: 1px solid #a9a9a9;
+    border-bottom-width: 1px !important;
+    padding: 12px 30px !important;
+    margin-right: 10px !important;
+}
+#social-connect-widget-v2 a.facebook, #social-connect-widget-v2 a.twitter, #social-connect-widget-v2 a.instagram{
+	    border-radius: 5px !important;
+}
+#invite-friends-v2 .channel .button-container .btn{
+	border-radius: 5px !important;
+    border: 0px !important;
+}
+#upload-receipt-v2 .receipt-preview label {
+    font-size: 0.725rem;
+    margin: 10px 0 17px 10px !important; 
+    border: 1px solid #a9a9a9  !important;
+    outline: none  !important;
+}
+#upload-receipt-v2 .receipt-preview img{
+	 border: 1px solid #a9a9a9  !important;	
+}
+#activity-history-v2 table thead{
+	border: 1px solid #6b6a63;
+    border-bottom: 0px;
+}
+#activity-history-v2 table tbody{
+	border: 1px solid #6b6a63;
+}
+#activity-history-v2 table tbody:before{
+	line-height:0px;
+	content:none;
+}
+#activity-history-v2 table tbody tr{
+	border: 1px solid #6b6a63;
+}
+#activity-history-v2 table tbody tr:first-child{
+	border-top:0px !important;
+}
+#activity-history-v2 table td, #activity-history-v2 table th{
+    padding: 7px 20px;
+    line-height: 30px;
+}
+#activity-history-v2 table td:first-child, #activity-history-v2 table th:first-child {
+    padding-left: 10px;
+}
